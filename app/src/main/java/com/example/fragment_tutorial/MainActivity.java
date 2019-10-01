@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
         Button fragment1Button = findViewById(R.id.fragment1Button);
         Button fragment2Button = findViewById(R.id.fragment2Button);
-        final FrameLayout fragmentContainer = findViewById(R.id.fragment_container);
 
         fragment1Button.setOnClickListener(new View.OnClickListener() {
             @Override
